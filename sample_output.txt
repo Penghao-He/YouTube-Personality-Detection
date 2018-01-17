@@ -1,0 +1,136 @@
+--------------------------------------------------------------
+All Features
+The mean absolute error for Extr using Lasso is: 0.69472207052
+The mean absolute error for Extr using SVM is: 0.661578693329
+The mean absolute error for Extr using random forest is: 0.636397925507
+
+
+The mean absolute error for Agr using Lasso is: 0.705159699269
+The mean absolute error for Agr using SVM is: 0.649368252942
+The mean absolute error for Agr using random forest is: 0.637949080622
+
+
+The mean absolute error for Cons using Lasso is: 0.549278122996
+The mean absolute error for Cons using SVM is: 0.551637209855
+The mean absolute error for Cons using random forest is: 0.545942951438
+
+
+The mean absolute error for Emot using Lasso is: 0.667657649572
+The mean absolute error for Emot using SVM is: 0.651086539566
+The mean absolute error for Emot using random forest is: 0.643328618576
+
+
+The mean absolute error for Open using Lasso is: 0.55680455764
+The mean absolute error for Open using SVM is: 0.575002220412
+The mean absolute error for Open using random forest is: 0.572687411598
+
+
+--------------------------------------------------------------
+Non-text Features
+The mean absolute error for Extr is: 0.69472207052
+The mean absolute error for Extr using SVM is: 0.698304885868
+The mean absolute error for Extr using random forest is: 0.663835454974
+
+
+The mean absolute error for Agr is: 0.705159699269
+The mean absolute error for Agr using SVM is: 0.693111226377
+The mean absolute error for Agr using random forest is: 0.724870344177
+
+
+The mean absolute error for Cons is: 0.549278122996
+The mean absolute error for Cons using SVM is: 0.545641749671
+The mean absolute error for Cons using random forest is: 0.666032531825
+
+
+The mean absolute error for Emot is: 0.667657649572
+The mean absolute error for Emot using SVM is: 0.657530845977
+The mean absolute error for Emot using random forest is: 0.720282885431
+
+
+The mean absolute error for Open is: 0.55680455764
+The mean absolute error for Open using SVM is: 0.568704712627
+The mean absolute error for Open using random forest is: 0.592965582273
+
+
+--------------------------------------------------------------
+Text Features
+The mean absolute error for Extr is: 0.702053798025
+The mean absolute error for Extr using SVM is: 0.707632877949
+The mean absolute error for Extr using random forest is: 0.70400990099
+
+
+The mean absolute error for Agr is: 0.702549858946
+The mean absolute error for Agr using SVM is: 0.651206184411
+The mean absolute error for Agr using random forest is: 0.617642621405
+
+
+The mean absolute error for Cons is: 0.548977691263
+The mean absolute error for Cons using SVM is: 0.546219349751
+The mean absolute error for Cons using random forest is: 0.541485148515
+
+
+The mean absolute error for Emot is: 0.652459842873
+The mean absolute error for Emot using SVM is: 0.627827957446
+The mean absolute error for Emot using random forest is: 0.671897689769
+
+
+The mean absolute error for Open is: 0.559980736405
+The mean absolute error for Open using SVM is: 0.560510987392
+The mean absolute error for Open using random forest is: 0.575843941537
+
+
+--------------------------------------------------------------
+Errors of Lasso Algorithm
+                  Extr      Agr      Cons      Emot      Open
+all features  0.694722  0.70516  0.549278  0.667658  0.556805
+audio+gender  0.694722  0.70516  0.549278  0.667658  0.556805
+text only     0.702054  0.70255  0.548978  0.652460  0.559981
+
+
+--------------------------------------------------------------
+Errors of SVM Algorithm
+                  Extr       Agr      Cons      Emot      Open
+all features  0.661579  0.649368  0.551637  0.651087  0.575002
+audio+gender  0.698305  0.693111  0.545642  0.657531  0.568705
+text only     0.707633  0.651206  0.546219  0.627828  0.560511
+
+
+--------------------------------------------------------------
+Errors of Random Forest Algorithm
+                  Extr       Agr      Cons      Emot      Open
+all features  0.636398  0.637949  0.545943  0.643329  0.572687
+audio+gender  0.663835  0.724870  0.666033  0.720283  0.592966
+text only     0.704010  0.617643  0.541485  0.671898  0.575844
+
+
+--------------------------------------------------------------
+Mean Errors of Lasso Algorithm
+all features    0.634724
+audio+gender    0.634724
+text only       0.633204
+dtype: float64
+
+
+--------------------------------------------------------------
+Mean Errors of SVM Algorithm
+all features    0.617735
+audio+gender    0.632659
+text only       0.618679
+dtype: float64
+
+
+--------------------------------------------------------------
+Mean Errors of Random Forest Algorithm
+all features    0.607261
+audio+gender    0.673597
+text only       0.622176
+dtype: float64
+
+
+--------------------------------------------------------------
+Application: using the text feature model to predict the Big Five score of Donald Trump's speech
+The predicted Extr score for Donald Trump speech using Random Forest is 4.46166666667
+The predicted Agr score for Donald Trump speech using Random Forest is 4.70047619048
+The predicted Cons score for Donald Trump speech using Random Forest is 4.47
+The predicted Emot score for Donald Trump speech using Random Forest is 4.41
+The predicted Open score for Donald Trump speech using Random Forest is 4.50333333333
